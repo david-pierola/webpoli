@@ -28,7 +28,6 @@
             "stylePreprocessorOptions": {
               "includePaths": ["src/less", "src/themes/", "src/assets/fonts/"]
             },
-              "node_modules/bootstrap/dist/css/bootstrap.css",
             "scripts": []
           },
           "configurations": {
@@ -92,7 +91,6 @@
             "stylePreprocessorOptions": {
               "includePaths": ["src/less", "src/themes/", "src/assets/fonts/"]
             },
-              "node_modules/bootstrap/dist/css/bootstrap.css",
             "scripts": []
           }
         },
