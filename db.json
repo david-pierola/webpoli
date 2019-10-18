@@ -1,0 +1,59 @@
+{
+  "departamentos": [
+    {
+      "id": 1,
+      "nombre": "Cochabamba",
+      "sigla": "CB"
+    },
+    {
+      "id": 2,
+      "nombre": "La Paz",
+      "sigla": "LP"
+    },
+    {
+      "id": 3,
+      "nombre": "Santa Cruz",
+      "sigla": "SC"
+    },
+    {
+      "id": 4,
+      "nombre": "Chuquisaca",
+      "sigla": "CH"
+    },
+    {
+      "id": 5,
+      "nombre": "Tarija",
+      "sigla": "TR"
+    },
+    {
+      "id": 6,
+      "nombre": "Oruro",
+      "sigla": "OR"
+    },
+    {
+      "id": 7,
+      "nombre": "POTOSI",
+      "sigla": "PT"
+    },
+    {
+      "id": 8,
+      "nombre": "Beni",
+      "sigla": "BN"
+    },
+    {
+      "id": 9,
+      "nombre": "Pando",
+      "sigla": "PN"
+    }
+  ],
+  "Sexo": [
+    {
+      "id": 1,
+      "nombre": "Masculino"
+    },
+    {
+      "id": 2,
+      "nombre": "Femenino"
+    }
+  ]
+}
