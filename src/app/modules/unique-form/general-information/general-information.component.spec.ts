@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { GeneralInformationComponent } from './general-information.component';
+import { GeneralInformationComponent } from "./general-information.component";
 
-describe('GeneralInformationComponent', () => {
+describe("GeneralInformationComponent", () => {
   let component: GeneralInformationComponent;
   let fixture: ComponentFixture<GeneralInformationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GeneralInformationComponent ]
-    })
-    .compileComponents();
+      declarations: [GeneralInformationComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('GeneralInformationComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

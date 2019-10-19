@@ -9,9 +9,13 @@ import { HeaderComponent } from "./layouts/header/header.component";
 import { FooterComponent } from "./layouts/footer/footer.component";
 import { HeaderMenuComponent } from "./menu/header-menu/header-menu.component";
 import { LeftMenuComponent } from "./menu/left-menu/left-menu.component";
-import { GeneralInformationComponent } from "./unique-form/general-information/general-information.component";
+import { GeneralInformationComponent } from "./modules/unique-form/general-information/general-information.component";
 import { HomeComponent } from "./modules/home/home.component";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { UniqueFormComponent } from "./modules/unique-form/unique-form/unique-form.component";
+import { WhistleblowerComponent } from "./modules/unique-form/whistleblower/whistleblower.component";
+import { VictimComponent } from "./modules/unique-form/victim/victim.component";
+import { DenouncedComponent } from "./modules/unique-form/denounced/denounced.component";
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     HeaderMenuComponent,
     LeftMenuComponent,
     HomeComponent,
-    GeneralInformationComponent
+    GeneralInformationComponent,
+    UniqueFormComponent,
+    WhistleblowerComponent,
+    VictimComponent,
+    DenouncedComponent
   ],
   imports: [BrowserModule, AppRoutingModule, CoreModule, HttpClientModule, FontAwesomeModule],
 

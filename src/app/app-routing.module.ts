@@ -1,16 +1,12 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { GeneralInformationComponent } from './unique-form/general-information/general-information.component';
-import { HomeComponent } from './modules/home/home.component';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { HomeComponent } from "./modules/home/home.component";
+import { UniqueFormComponent } from "./modules/unique-form/unique-form/unique-form.component";
 
-
-const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'uniqueform', component: GeneralInformationComponent }
-];
+const routes: Routes = [{ path: "", component: HomeComponent }, { path: "uniqueform", component: UniqueFormComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
