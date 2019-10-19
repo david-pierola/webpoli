@@ -1,14 +1,32 @@
 
-<app-header-menu></app-header-menu>
+<div class="wrapper">
 
-<div class="container-fluid">
+    <!-- Sidebar -->
+    <nav id="sidebar" [ngClass]="status ? 'active' : ''">
+        <app-left-menu></app-left-menu>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="content">
+        <app-header-menu (toogleSidebar)="toogleSidebar($event)"></app-header-menu>
+        <router-outlet></router-outlet>
+        <!-- We'll fill this with dummy content -->
+    </div>
+
+</div>
+
+
+
+
+
+<!-- <div class="container-fluid">
   <div class="row">
     <div class="col-md-2 d-none d-md-block" >
-        <app-left-menu></app-left-menu>
+        
     </div>
     
     <div class="col-md-9 ml-sm-auto col-lg-10 px-4">
-      <router-outlet></router-outlet>
+      
     </div>  
   </div>
-</div>
+</div> -->
